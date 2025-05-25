@@ -1,8 +1,7 @@
 import cv2
 
-
 def nothing(x):
-    pass
+    return x
 
 
 cam = cv2.VideoCapture(0)
