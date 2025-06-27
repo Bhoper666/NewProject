@@ -1,0 +1,44 @@
+from tkinter import *
+from tkinter import messagebox
+import os
+
+def execute():
+    messagebox.showerror('Помилка', 'Майнкрафт не запущено!')
+    root.destroy()
+    messagebox.showinfo('ХХАХАХАХАХАХХАХАХА', 'ДЯКУЮ ЗА ЗАПУСК ВІРУСІВ ДО СЕБЕ😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈😈')
+    messagebox.showinfo('😈', 'Твій пк наш!')
+    messagebox.showinfo('Прототип', 'Це версія без вірусу. Версія з вірусом іде окремо.')
+    os.system('open https://telegra.ph/Tut-bude-po-v-majbutnomu-06-21')
+
+def edit():
+    messagebox.showerror('Помилка', 'Функція буде додана в майбутніх оновленнях!')
+
+root = Tk()
+root.title('Minecraft Injector 2.2')
+root.geometry('600x600')
+
+l1 = Label(text='Minecraft Loader 2.0', font='Consolas 15')
+l1.pack()
+l2 = Label(text='Зламаний і репакнутий від механіків😉', font='Consolas 9')
+l2.pack()
+b1 = Checkbutton(root, text='Іксрей', font='Consolas 15')
+b1.pack()
+b2 = Checkbutton(root, text='Кілаура', font='Consolas 15')
+b2.pack()
+b3 = Checkbutton(root, text='Фрі камера', font='Consolas 15')
+b3.pack()
+b4 = Checkbutton(root, text='Режим бога👿', font='Consolas 15')
+b4.pack()
+b5 = Checkbutton(root, text='Безкінечне ХП', font='Consolas 15')
+b5.pack()
+b6 = Checkbutton(root, text='Максимальна скорість', font='Consolas 15')
+b6.pack()
+b7 = Checkbutton(root, text='Флай', font='Consolas 15')
+b7.pack()
+b8 = Button(root, text='Редактор руд', font='Consolas 15', command=edit)
+b8.pack()
+Injector = Button(root, text='Інжект', font='Consolas 15', command=execute)
+Injector.pack()
+
+
+root.mainloop()
